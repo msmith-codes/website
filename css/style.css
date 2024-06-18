@@ -88,11 +88,12 @@ canvas{
 
 .centerDIV {
     display: block;
-    height: 3rem;
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     font-style: normal;
     max-width: fit-content;
+    margin-top: 24px;
+    margin-bottom: 24px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -111,6 +112,11 @@ canvas{
 
 #imgList img {
     margin-left: 5px;
+    transition: transform 0.3s ease;
+}
+
+#imgList img:hover {
+    transform: scale(1.2);
 }
 
 #homeButton {
