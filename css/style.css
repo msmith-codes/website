@@ -40,6 +40,7 @@ body{
 }
 
 #content {
+    display: block;
     width: 100%;
     position: absolute;
     top: 25%;
@@ -48,7 +49,7 @@ body{
 
 canvas{
   display:block;
-  vertical-align:bottom;
+  vertical-align: bottom;
 }
 
 .centerImg {
@@ -86,6 +87,18 @@ canvas{
 
 .centerDIV {
     display: block;
+    height: 3rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#imgList {
+    display: flex;
+    flex-direction: row;
     height: 3rem;
     font-family: "Roboto", sans-serif;
     font-weight: 100;
