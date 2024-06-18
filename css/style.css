@@ -107,6 +107,9 @@ canvas{
     margin-left: auto;
     margin-right: auto;
 }
+#homeButton {
+    margin-top: 10px;
+}
 
 #buttons {
     display: flex;
