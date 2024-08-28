@@ -21,3 +21,7 @@ main {
 .active {
     font-weight: bolder;
 }
+
+h1.title {
+    font-size: 32px;
+}
