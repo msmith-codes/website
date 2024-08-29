@@ -25,3 +25,36 @@ main {
 h1.title {
     font-size: 32px;
 }
+
+.boxed {
+    border: 1px solid #000; 
+    padding: 1px 2px;
+}
+
+.preboxed {
+    position: relative;
+    padding-left: 50px; /* Adjust to make room for line numbers */
+    border: 1px solid #000;
+    background-color: #f0f0f0; /* Optional: background color for readability */
+    overflow: auto; /* Ensure the content scrolls if it overflows */
+}
+
+.preboxed .line-number {
+    position: absolute;
+    left: 0;
+    width: 40px; /* Adjust width according to your needs */
+    text-align: right;
+    padding-right: 10px; /* Space between the number and the code */
+    color: #888; /* Color for line numbers */
+    background-color: #f0f0f0; /* Match the background of the code block */
+    border-right: 1px solid #ddd; /* Optional: add a border for better separation */
+    height: 1.5em; /* Adjust height based on line height */
+}
+
+.preboxed code {
+    display: block;
+    margin: 0; /* Remove default margin */
+    padding-left: 0; /* Reset padding to avoid extra space */
+    white-space: pre; /* Preserve white space */
+    line-height: 1.5; /* Improve readability */
+}
