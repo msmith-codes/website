@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import watorGif from "./wator.gif"
 import spaceInvadersGif from "./space_invaders.gif"
 import ezVimPng from "./ezvim.png"
+import Image from "next/image";
 
 export default function ProjectsPage() : React.ReactElement
 {
@@ -21,7 +22,7 @@ export default function ProjectsPage() : React.ReactElement
                     <p>
                         Here is an example of what it looks like:
                     </p>
-                    <img src={ezVimPng.src} alt="EzVim Screenshot" width={640} height={360}/>
+                    <Image src={ezVimPng.src} alt="EzVim Screenshot" width={640} height={360}/>
 
                 </div>
                 <h2>Algorithms</h2>
@@ -35,7 +36,7 @@ export default function ProjectsPage() : React.ReactElement
                     <p>
                         Here is an example animation:
                     </p>
-                    <img src={watorGif.src} alt="Wa-Tor Gif"/>
+                    <Image src={watorGif.src} alt="Wa-Tor Gif" width={640} height={320}/>
                     <p>
                         Fish are represented with blue and sharks are represented with red.
                     </p>
@@ -50,7 +51,7 @@ export default function ProjectsPage() : React.ReactElement
                     <p>
                         Here is an example animation:
                     </p>
-                    <img src={spaceInvadersGif.src} alt="Space Invaders Gif" width={640} height={320}/>
+                    <Image src={spaceInvadersGif.src} alt="Space Invaders Gif" width={640} height={320}/>
                     <p>
                         The fleet of aliens are in blue while the player and shields are green. Bullets are red.
                     </p>
