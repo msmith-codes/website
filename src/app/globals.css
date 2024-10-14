@@ -1,0 +1,13 @@
+body {
+  max-width: 650px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  text-transform: uppercase;
+}
