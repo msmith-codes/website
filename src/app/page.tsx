@@ -9,7 +9,7 @@ export default function HomePage() : React.ReactElement
                 <h1>Welcome!</h1>
                 <p>
                     My name is Michael Smith, and I am a student at Pennsylvania Western University at Edinboro. 
-                    I am currently working on a Bachelor's degree in Applied Computing, with a concentration in App 
+                    I am currently working on a Bachelor degree in Applied Computing, with a concentration in App 
                     Development and a minor in Mathametics. I am looking to develop game engines for game developers to use.
                 </p>
                 <h2>Programming Skills</h2>

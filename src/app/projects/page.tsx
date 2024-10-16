@@ -31,7 +31,7 @@ export default function ProjectsPage() : React.ReactElement
                     <p>
                         This is my basic implementation of the <a href="https://en.wikipedia.org/wiki/Wa-Tor" target="_blank">Wa-Tor</a> simulation. 
                         The Wa-Tor simulation is a simulation of a predator-prey ecosystem. In this simulation, there are two types of creatures:
-                        fish and sharks. Fish move randomly, and sharks move randomly and eat fish. This algorithm doesn't have any user input.
+                        fish and sharks. Fish move randomly, and sharks move randomly and eat fish. This algorithm does not have any user input.
                     </p>
                     <p>
                         Here is an example animation:

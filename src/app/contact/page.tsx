@@ -3,9 +3,9 @@ import styles from "./page.module.css";
 
 export default function ContactPage() : React.ReactElement
 {
-    let mailto = "mailto:info@msmith.codes";
-    let github = "https://github.com/msmith-codes";
-    let linkedin = "https://www.linkedin.com/in/michael-smith-628857253/";
+    const mailto = "mailto:info@msmith.codes";
+    const github = "https://github.com/msmith-codes";
+    const linkedin = "https://www.linkedin.com/in/michael-smith-628857253/";
 
     return (
         <div className={styles.page}>
