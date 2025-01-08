@@ -1,28 +1,15 @@
-import React from "react";
-import styles from "./page.module.css";
+"use client";
 
-export default function ContactPage() : React.ReactElement
+import Link from 'next/link';
+
+export default function ContactPage()
 {
-    const mailto = "mailto:info@msmith.codes";
-    const github = "https://github.com/msmith-codes";
-    const linkedin = "https://www.linkedin.com/in/michael-smith-628857253/";
-
     return (
-        <div className={styles.page}>
-            <main className={styles.main}>
-                <h1>Contact Me!</h1>
-                <ul>
-                    <li>
-                        <strong>Email:</strong> <a href={mailto}>info@msmith.codes</a>
-                    </li>
-                    <li>
-                        <strong>GitHub:</strong> <a href={github} target="_blank">msmith-codes</a>
-                    </li>
-                    <li>
-                        <strong>LinkedIn:</strong> <a href={linkedin} target="_blank">michael-smith-628857253</a>
-                    </li>
-                </ul>
-            </main>
-        </div>
+        <main>
+            <h1>/* Contact */</h1>
+            <p> 
+                Interested in collaborating, suggestions or just want to reaching out? Send an email to <Link href="mailto:msmith.softwaredev@gmail.com">msmith.softwaredev@gmail.com</Link>
+            </p>
+        </main>
     );
 }

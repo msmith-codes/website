@@ -1,37 +1,32 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import NavbarComponent from "./_components/Navbar";
 
-export const metadata: Metadata = {
-    title: "Michael Smith",
-    description: "My portfolio website",
+export const metadata : Metadata = {
+  title: "msmith.softwaredev@gmail.com",
+  description: "The portfolio Website of Michael Smith",
 };
 
 interface RootLayoutProps 
 {
-    children : React.ReactNode;
+    children: React.ReactNode;
 }
 
-export default function RootLayout(props : RootLayoutProps) : React.ReactElement
+export default function RootLayout(props : RootLayoutProps) 
 {
+    const context = null;
+    
     return (
         <html lang="en">
             <body>
                 <header>
-                    <div id="nav">
-                        <a href="/">Home</a> | 
-                        <a href="/resources">Resources</a> | 
-                        <a href="/projects">Projects</a> | 
-                        <a href="/contact">Contact</a>
-                    </div>
                     <hr/>
-                </header>
-                
+                        <NavbarComponent />
+                    <hr/>
+                </header>   
                 {props.children}
-                
-                <footer>
-
-                </footer>
             </body>
         </html>
     );
 }
+

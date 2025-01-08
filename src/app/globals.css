@@ -1,13 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
 body {
-  max-width: 650px;
-  margin: auto;
-  margin-top: 10px;
+    background-color: #343434;
+    font-family: 'Source Code Pro', monospace;
+    color: #ffffff;
+
+    max-width: 650px;
+    margin: auto;
+    margin-top: 20px;
 }
 
-#nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
-  text-transform: uppercase;
+a {
+    text-decoration: underline;
+    color: #54b35c;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(512px, 1fr));
+    gap: 20px;
 }

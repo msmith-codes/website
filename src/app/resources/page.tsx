@@ -1,13 +1,17 @@
 import React from "react";
-import styles from "./page.module.css";
+import Link from "next/link";
 
 export default function ResourcesPage() : React.ReactElement
 {
     return (
-        <div className={styles.page}>
-            <main className={styles.main}>
-                <h1>Resources</h1>
-                <h2>Working On.</h2>
+        <div>
+            <main>
+                <h1>/* Resources */</h1>
+                <ul>
+                    <li>
+                        <Link href="/resources/cpp-0">Learn C++</Link>
+                    </li>
+                </ul>
             </main>
         </div>
     );

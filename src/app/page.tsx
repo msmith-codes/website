@@ -1,33 +1,31 @@
-import React from "react";
-import styles from "./page.module.css";
+import Link from 'next/link';
 
-export default function HomePage() : React.ReactElement
-{
+export default function HomePage() {
     return (
-        <div className={styles.page}>
-            <main className={styles.main}>
-                <h1>Welcome!</h1>
-                <p>
-                    My name is Michael Smith, and I am a student at Pennsylvania Western University at Edinboro. 
-                    I am currently working on a Bachelor degree in Applied Computing, with a concentration in App 
-                    Development and a minor in Mathametics. I am looking to develop game engines for game developers to use.
-                </p>
-                <h2>Programming Skills</h2>
-                <ul>
-                    <li>C++ (Fluent)</li>
-                    <li>Java (Fluent)</li>
-                    <li>Go (Fluent)</li>
-                    <li>GDScript (Fluent)</li>
-                    <li>Python (Proficient)</li>
-                    <li>JavaScript/TypeScript (Proficient)</li>
-                    <li>SQL (Proficient)</li>
-                </ul>
-                <h2>Languages</h2>
-                <ul>
-                    <li>English (Native)</li>
-                    <li>Dutch (Basic)</li>
-                </ul>
-            </main>
-        </div>
+        <main>
+            <h1>/* Welcome to msmith.codes */</h1>
+            <h2>I'm Michael!</h2>
+            <p>
+                I'm a 22 year old white dude who enjoys traveling while making video games.
+            </p>
+            <br/>
+            
+            <h1>/* Projects */</h1>
+            <Link target="_blank" href="https://store.steampowered.com/app/2124110/Vortix/"><h2>Vortix</h2></Link>
+            <ul>
+                <li><strong>Genre:</strong> 2D Multiplayer Arcade</li>
+                <li><strong>Engine:</strong> Godot</li>
+                <li><strong>Team Size:</strong> 3</li>
+                <li>
+                    <strong>Description:</strong> <br/>
+                    <p>
+                        My main goal when developing Vortix was to experiment with syncing physics over a network.
+                        With this task, I created a simple sumo game where players try to knock the opponent out of 
+                        a shrinking circle. I was one out of two developers on this project. My main task was networking
+                        and basic game design.
+                    </p>
+                </li>
+            </ul>
+        </main>
     );
 }
