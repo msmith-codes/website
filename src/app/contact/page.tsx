@@ -8,7 +8,8 @@ export default function ContactPage()
         <main>
             <h1>/* Contact */</h1>
             <p> 
-                Interested in collaborating, suggestions or just want to reaching out? Send an email to <Link href="mailto:msmith.softwaredev@gmail.com">msmith.softwaredev@gmail.com</Link>
+                Interested in collaborating, suggestions or just want to reaching out? 
+                Send an email to <Link href="mailto:msmith.softwaredev@gmail.com">msmith.softwaredev@gmail.com</Link>
             </p>
         </main>
     );
