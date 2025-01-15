@@ -11,6 +11,9 @@ export default function ResourcesPage() : React.ReactElement
                     <li>
                         <Link href="/resources/cpp-0">Learn C++</Link>
                     </li>
+                    <li>
+                        <Link href="/resources/py-0">Learn Python</Link>
+                    </li>
                 </ul>
             </main>
         </div>
