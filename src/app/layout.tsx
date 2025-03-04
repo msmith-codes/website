@@ -14,8 +14,6 @@ interface RootLayoutProps
 
 export default function RootLayout(props : RootLayoutProps) 
 {
-    const context = null;
-    
     return (
         <html lang="en">
             <body>

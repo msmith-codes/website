@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export default function Custom404()
+export default function Custom404() : React.ReactElement 
 {
     return (
         <main>
