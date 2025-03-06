@@ -9,10 +9,7 @@ export default function ResourcesPage() : React.ReactElement
                 <h1>/* Resources */</h1>
                 <ul>
                     <li>
-                        <Link href="/resources/cpp-0">Learn C++</Link>
-                    </li>
-                    <li>
-                        <Link href="/resources/py-0">Learn Python</Link>
+                        <Link href="/resources/cpp-0">Setting Up C++</Link>
                     </li>
                 </ul>
             </main>
