@@ -10,6 +10,11 @@ export default function ExperiencePage()
                 <li><strong>Role:</strong> Software Engineer Intern</li>
                 <li><strong>Work Type:</strong> Hybrid</li>
             </ul>
+            <h2>Freelance Tutoring</h2>
+            <ul>
+                <li><strong>Time Active:</strong> March 2025 - <i>Present</i></li>
+                <li><strong>Work Type:</strong> Online</li>
+            </ul>
         </main>
     );
 }
