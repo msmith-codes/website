@@ -29,23 +29,28 @@ $(TARGET): $(OBJ)
 
 # Compile .cpp files into .o files
 $(OBJ_DIR)/%.o: $(SRC_DIR)/%.cpp
-	@mkdir -p $(OBJ_DIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@
+    @mkdir -p $(OBJ_DIR)
+    $(CXX) $(CXXFLAGS) -c $< -o $@
 
 # Clean up compiled files
 clean:
-	rm -rf $(OBJ_DIR) $(BIN_DIR)
+    rm -rf $(OBJ_DIR) $(BIN_DIR)
 
 # Phony targets (not real files)
 .PHONY: clean run`
 
     return (
         <main>
-            <h1>/* Example Makefile */</h1>
+            <h1>/* Makefiles */</h1>
             <p>
-                To streamline development here is an example <code>Makefile</code> that you can use to compile your C++ programs.
+                To streamline development you can use Makefiles to compile your C++ applications.
+            </p>
+            <h2>// Makefile Example</h2>
+            <p>
+                This Makefile is designed to compile on macOS, Linux, and Windows using the MinGW compiler.
             </p>
             <CodeBlock text={makefile} showLineNumbers={true} language="makefile" theme={dracula}/>
+            <h2>// Explaination</h2>
             <p>
                 This make file will create 3 directories: <code>src</code>, <code>obj</code>, and <code>bin</code>.
                 The <code>src</code> directory is where you will store your C++ source files. The <code>obj</code> directory
