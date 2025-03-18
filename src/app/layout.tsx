@@ -3,8 +3,8 @@ import "./globals.css";
 import NavbarComponent from "./_components/Navbar";
 
 export const metadata : Metadata = {
-  title: "Michael Smith",
-  description: "The portfolio Website of Michael Smith",
+    title: "Michael Smith",
+    description: "The portfolio Website of Michael Smith",
 };
 
 interface RootLayoutProps 
@@ -23,6 +23,9 @@ export default function RootLayout(props : RootLayoutProps)
                     <hr/>
                 </header>   
                 {props.children}
+                <footer>
+                    
+                </footer>
             </body>
         </html>
     );

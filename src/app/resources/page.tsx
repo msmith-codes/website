@@ -8,9 +8,8 @@ export default function ResourcesPage() : React.ReactElement
             <main>
                 <h1>/* Resources */</h1>
                 <ul>
-                    <li>
-                        <Link href="/resources/cpp-0">Setting Up C++</Link>
-                    </li>
+                    <li> <Link href="/resources/settingup-cxx">Setting Up C++</Link> </li>
+                    <li> <Link href="/resources/makefiles-cxx">Example C++ Makefile</Link> </li>
                 </ul>
             </main>
         </div>
